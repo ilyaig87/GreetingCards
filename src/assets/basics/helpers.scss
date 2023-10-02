@@ -1,0 +1,51 @@
+/* HELPERS */
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.full {
+  width: 100%;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}

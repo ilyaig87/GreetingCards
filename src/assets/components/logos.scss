@@ -1,0 +1,22 @@
+.main_logos_container {
+  position: relative;
+  padding: 14px 30px;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+  .volvo_img {
+    width: 155px;
+    margin-left: 64px;
+  }
+  h1 {
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 275%;
+  }
+  h3 {
+    margin-top: -10px;
+    font-family: "Heebo";
+    font-weight: 500;
+    font-size: 150%;
+    color: #a99861;
+    text-align: end;
+  }
+}

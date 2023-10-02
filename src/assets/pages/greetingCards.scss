@@ -1,0 +1,57 @@
+.greeting_cards_container {
+  padding: 1rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  .desc {
+    font: 20px/25px Assistant;
+    padding: 1rem;
+    p {
+      max-width: 500px;
+    }
+
+    h1 {
+      font-family: "Satisfy";
+    }
+  }
+}
+.greet_cards {
+  padding: 1rem;
+  box-shadow: 3px 3px 5px 6px #ceddd6;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.greet_card_item {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 250px;
+  height: auto;
+  background-color: #01b35464;
+  border-radius: 12px;
+  box-shadow: 0.8rem 1rem 0.5rem #c0cec7;
+  h4,
+  p {
+    font: 20px/25px Assistant;
+    margin-bottom: 10px;
+    min-height: 50px;
+  }
+  img {
+    width: 200px;
+    height: 150px;
+  }
+  a {
+    margin-top: 1rem;
+    border: 1px solid rgb(136, 100, 100);
+    width: 100px;
+    border-radius: 22px;
+    font: 20px/20px Assistant;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}

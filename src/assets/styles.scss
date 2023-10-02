@@ -1,0 +1,16 @@
+// BASICS
+@import "basics/base";
+
+//HELPERS
+@import "basics/helpers";
+
+// Components
+@import "components/header";
+@import "components/nav";
+@import "components/logos";
+@import "components/sponsers";
+@import "components/Footer";
+
+// pages
+@import "pages/greetingCards";
+@import "pages/greetingCard";

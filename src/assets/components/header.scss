@@ -1,0 +1,22 @@
+.main_header_container {
+  padding: 7px 135px 9px 24px;
+  font-family: Heebo;
+  background-color: #1f1e1e;
+  .header_text {
+    gap: 2.5rem;
+    a {
+      &:hover {
+        color: green;
+      }
+    }
+  }
+  .header_svg {
+    width: 295px;
+    a {
+      font-family: Assistant;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 20px;
+    }
+  }
+}
